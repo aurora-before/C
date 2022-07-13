@@ -1,6 +1,7 @@
 {
     "files.associations": {
         "Hello.C": "cpp",
-        "printf.C": "cpp"
+        "printf.C": "cpp",
+        "2_数据类型.C": "cpp"
     }
 }
