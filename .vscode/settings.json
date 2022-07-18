@@ -3,6 +3,7 @@
         "Hello.C": "cpp",
         "printf.C": "cpp",
         "2_数据类型.C": "cpp",
-        "1_printf.C": "cpp"
+        "1_printf.C": "cpp",
+        "3_常量，变量.C": "cpp"
     }
 }
