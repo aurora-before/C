@@ -1,4 +1,37 @@
 #include <stdio.h>
+//常量
+#define MAX 10000
+enum Sex
+{
+    //枚举类型的变量的未来可能取值
+    //枚举常量
+    MALE = 3, //默认0，也可以像这样赋初值
+    FEMALE,   // 1
+    SECRET    // 2
+};
+int main()
+{
+    /*1.字面常量
+    3.14;
+    10;
+    'a';
+    */
+    /*2.const修饰的常变量
+        //const int num=10;//num是常变量-具有常属性（不能被改变的属性）
+        //num=20;修改不了会报错
+        //printf("%d",num);
+ */
+    /*3.#define
+    //   MAX=2000;常量改不了会报错
+         int n=MAX;
+         printf("%d",n);
+    */
+    /*4.枚举常量*/
+    //可以一一列举的常量
+    enum Sex s = MALE;
+    printf("%d", s);
+    return 0;
+}
 /*
 int main(){
     //创建一个变量
@@ -27,6 +60,8 @@ int main(){
     printf("%d",a);
 }
 */
+
+/*
 //求两个整数的和
 //scanf是输入函数
 int main(){
@@ -38,4 +73,4 @@ int main(){
     printf("sum=%d",sum);
     return 0;
 }
-
+*/
