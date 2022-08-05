@@ -17,9 +17,9 @@ int main(){
     // a=a+5;
     // a=6;
     // a+=5;
-    int a=0;
+    // int a=0;
     //0表示假，非0就是真
-    printf("%d",!a);
+    // printf("%d\n",!a);
 
     /*
     if(a){
@@ -29,5 +29,11 @@ int main(){
         //a为假进入
     }
     */
+   int arr[10]={1};
+   printf("%d\n",sizeof(arr)); //40,因为有十个整型
+   printf("%d\n",sizeof(arr[0]));
+   int a=10;
+   printf("%d\n",sizeof(int));
+   printf("%d\n",sizeof a);
     return 0;
 }
