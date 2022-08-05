@@ -29,11 +29,18 @@ int main(){
         //a为假进入
     }
     */
+   /*
    int arr[10]={1};
    printf("%d\n",sizeof(arr)); //40,因为有十个整型
    printf("%d\n",sizeof(arr[0]));
    int a=10;
    printf("%d\n",sizeof(int));
    printf("%d\n",sizeof a);
+   */
+
+  int a=0;
+  //~按位取反操作符
+  printf("%d\n",~a);
+
     return 0;
 }
