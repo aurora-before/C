@@ -38,9 +38,25 @@ int main(){
    printf("%d\n",sizeof a);
    */
 
+/*
   int a=0;
   //~按位取反操作符
   printf("%d\n",~a);
+*/
+/*
+    int a=10;
+    int b=++a;//a先自己++变为11，后使用，++a整体是11
+    printf("%d\n",b);
+    printf("%d\n",a);
+    */
+   /*
+    int a=10;
+    int b=a++;//a++为10，后a+1
+    printf("%d\n",b);
+    printf("%d\n",a);
+    */
 
+   int a=(int)3.14;
+   printf("%d\n",a);
     return 0;
 }
