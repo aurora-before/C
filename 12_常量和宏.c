@@ -5,8 +5,17 @@
 // }
 
 //定义宏
-#define ADD(X,Y) ((X)+(Y))
+// #define ADD(X,Y) ((X)+(Y))
+// int main(){
+//     printf("%d\n",4*ADD(2,3));//上面不加括号的话会变成4*2+3
+//     return 0;
+// }
+
 int main(){
-    printf("%d\n",4*ADD(2,3));//上面不加括号的话会变成4*2+3
+    int a=10;//四个字节
+    printf("%p\n",&a);//&p用来打印地址
+    int* pa=&a;//pa用来存放地址，叫做指针变量
+    //*说明pa是指针变量
+    //int* 说明pa执行的对象是int类型
     return 0;
 }
