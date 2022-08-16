@@ -9,4 +9,6 @@ int main(){
     printf("1:%s %d %1f\n",s.name,s.age,s.score);
     struct Stu *ps=&s;
     printf("2:%s %d %1f\n",(*ps).name,(*ps).age,(*ps).score);
+    printf("3:%s %d %1f\n",ps->name,ps->age,ps->score);
+    
 }   
