@@ -91,18 +91,13 @@ int main()
     return 0;
 }
 */
+/*1到10的阶乘相加改进
 int main()
 {
     int n = 1;
     int sum = 0;
     for (int j = 1; j < 11; j++)
     {
-        // n=1;
-        // for (int i = 1; i <= j; i++)
-        // {
-        //    n=n*i;
-        // }
-        // printf("%d  ",n);
         n=j*n;
         sum=sum+n;
     }
@@ -110,3 +105,4 @@ int main()
     printf("%d", sum);
     return 0;
 }
+*/
