@@ -12,6 +12,7 @@ int main(){
 int main(){
     int ch=0;
     //ctrl+z结束
+    //eof实质上是-1
     while ((ch=getchar())!=EOF){
         putchar(ch);
     }
@@ -20,7 +21,7 @@ int main(){
     return 0;
 }
 */
-
+/*
 int main()
 {
     char password[20] = {0};
@@ -43,5 +44,69 @@ int main()
     {
         printf("确认失败\n");
     }
+    return 0;
+}
+*/
+
+/*
+int main(){
+    int ch=0;
+    while((ch=getchar())!=EOF){
+        if(ch<'0'||ch>'9')
+           continue;
+        putchar(ch);
+    }
+    return 0;
+}
+*/
+
+/*
+
+int main(){
+    int i=1;
+    do{
+        printf("%d",i);
+        i++;
+    } while (i<=10);
+    return 0;
+}
+*/
+/*1到10的阶乘相加
+int main()
+{
+    int n = 1;
+    int sum = 0;
+    for (int j = 1; j < 11; j++)
+    {
+        n=1;
+        for (int i = 1; i <= j; i++)
+        {
+           n=n*i;
+        }
+        // printf("%d  ",n);
+        sum=sum+n;
+    }
+
+    printf("%d", sum);
+    return 0;
+}
+*/
+int main()
+{
+    int n = 1;
+    int sum = 0;
+    for (int j = 1; j < 11; j++)
+    {
+        // n=1;
+        // for (int i = 1; i <= j; i++)
+        // {
+        //    n=n*i;
+        // }
+        // printf("%d  ",n);
+        n=j*n;
+        sum=sum+n;
+    }
+
+    printf("%d", sum);
     return 0;
 }
