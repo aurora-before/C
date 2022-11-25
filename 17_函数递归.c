@@ -93,7 +93,7 @@ int main(){
 */
 
 
-
+/*
 //求第n个斐波那契数
 //用递归效率太低
 //  1 1 2 3 5 8 13...
@@ -131,3 +131,17 @@ int main()
     return 0;
 }
 
+*/
+int a=5;
+int f(int* r){
+    printf("%d%d\n",a,*r);
+    a=*r+1;
+    printf("%d%d\n",a,*r);
+    *r=*r*2;
+    printf("%d%d",a,*r);
+    return *r;
+}
+int main(){
+    int x=f(&a);
+    printf("%d",a+x);
+}
